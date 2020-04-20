@@ -13,7 +13,9 @@ dependencies:
   - ipython
   # Put any conda dependencies here
 
-  - pip:
+  - pip:  
+    - eurostat
+    - ratelim
     # Put any pip dependencies here (and no conda ones anywhere below)
 
   # Tooling requirements (don't edit)
