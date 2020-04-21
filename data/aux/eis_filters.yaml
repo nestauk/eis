@@ -1,0 +1,71 @@
+educ_uoe_grad02:
+  iscedf13:
+    - F06
+  sex:
+    - T
+hrst_fl_tegrad: #Graduates from STEM subjects
+  field:
+    - EF4
+  sex:
+    - T
+  unit:
+    - PC_Y20-29
+hrst_st_nfieocc: #This measures people employed in occupations
+  age:
+    - Y25-64
+  field:
+    - EF4
+  isco08:
+    - TOTAL
+  unit:
+    - PC_EMP
+hrst_st_nsec2:
+  age:
+    - Y25-64
+  category:
+    - HRSTE #This measures people employed in the sector
+  nace_r2:
+    - I
+  unit:
+    - PC_EMP
+isoc_ske_fct: #IT developoment activities
+  indic_is:
+    - E_IT_MOWN
+  sizen_r2:
+    -  SM_C10_S951_XK #(SMEs)
+  unit:
+    - PC_ENT_CUSE 
+isoc_ske_itrcrn2: #Difficulty recruiting IT specialists
+  indic_is:
+    -  E_ITSPVAC2X 
+  sizen_r2:
+    - SM_C10_S951_XK #SMEs
+  unit:
+    - PC_ENT_CUSE
+isoc_ske_itspen2: #% that employ ICT specialists
+  sizen_r2:
+    - SM_C10_S951_XK
+  unit:
+    - PC_ENT_CUSE
+isoc_ske_ittn2: #% that offer ICT training
+  indic_is:
+    - E_ITT2
+  sizen_r2:
+    - SM_C10_S951_XK
+  unit:
+    - PC_ENT_CUSE
+isoc_ski_itemp: #ICT education by employment status
+  unit:
+    - PC
+  wstatus:
+    - EMP
+isoc_sks_itspt: #Employed ICT specialists
+  unit:
+    - PC_EMP
+lfsa_egan2: #Employment by sector
+  nace_r2:
+    - I
+  sex:
+    - T
+  unit:
+    - THS

@@ -11,6 +11,7 @@ dependencies:
   - matplotlib
   - jupyter
   - ipython
+  - seaborn
   # Put any conda dependencies here
 
   - pip:
