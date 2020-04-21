@@ -48,3 +48,5 @@ import matplotlib.pyplot as plt
 # project directory e.g. `/home/user/GIT/nesta`
 project_dir = eis.project_dir
 data_path = f'{project_dir}/data'
+
+material_outputs = f"{project_dir}/reports/figures/exploratory_paper"
