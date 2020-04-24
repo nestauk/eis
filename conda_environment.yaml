@@ -15,6 +15,10 @@ dependencies:
   # Put any conda dependencies here
 
   - pip:
+    - xlrd
+    - git+ssh://@github.com/nestauk/data_getters.git
+    - google-cloud-bigquery
+    - pandas-gbq
     # Put any pip dependencies here (and no conda ones anywhere below)
 
   # Tooling requirements (don't edit)
