@@ -1,13 +1,13 @@
 category,indicator,description
+At work,Employed in High technology sectors,"Employed HRST by category, age and NACE Rev. 2 activity"
+At work,R&D personnel in ICT sector as % of total R&D personnel by NACE Rev. 2 activity,R&D personnel in ICT sector as % of total R&D personnel by NACE Rev. 2 activity
+At work,"Employment by sex, age and sector (ICT)","Employment by sex, age and economic activity (from 2008 onwards, NACE Rev. 2) - 1 000"
+At work,Employed ICT specialists - total,Employed ICT specialists - total
 Demand ,% of enterprises that employ ICT specialists,Enterprises that employ ICT specialists
 Demand ,Enterprises that recruited or tried to recruit ICT specialists,Enterprises that recruited or tried to recruit ICT specialists
 Demand ,Enterprises - ICT functions performed,"Enterprises - ICT functions performed (whether the company outsources ICT / web / office functions, or they are developed internally)"
-Industry skills base,Employed in High technology sectors,"Employed HRST by category, age and NACE Rev. 2 activity"
-Industry skills base,R&D personnel in ICT sector as % of total R&D personnel by NACE Rev. 2 activity,R&D personnel in ICT sector as % of total R&D personnel by NACE Rev. 2 activity
-Industry skills base,"Employment by sex, age and sector (ICT)","Employment by sex, age and economic activity (from 2008 onwards, NACE Rev. 2) - 1 000"
 Supply,Graduates in Information & Communication Technologies,"Graduates by education level, programme orientation, sex and field of education"
 Supply,Students in Information & Communication Technologies,"Students enrolled in tertiary education by education level, programme orientation, sex and field of education
 "
-Supply,Employed ICT specialists - total,Employed ICT specialists - total
 Supply,Persons with ICT education by labour status,Persons with ICT education by labour status
 Supply ,Enterprises that provided training to develop/upgrade ICT skills of their personnel,Enterprises that provided training to develop/upgrade ICT skills of their personnel
