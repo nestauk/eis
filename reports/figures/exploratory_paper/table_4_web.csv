@@ -1,0 +1,9 @@
+category,indicator,source,description
+Demand,Online job vacancies (ICT professionals) ,CEDEFOP,Vacancies for ICT professionals in websites collected as part of the OVATE project
+Demand,Digital talent in/out migration,LinkedIn,In / out migration by skills group and base/target country based on LinkedIn data
+At work,Number of open source software developers,GitHub,Number of open source developers participating in GitHub
+At work,Number of digital technology networking groups,Meetup,Number of groups in the tech category
+At work,Number of unique participants in technology networking groups,Meetup,Number of individuals who are members of groups in the tech meetup category
+At work,Python package downloads,PyPy,Number of Python package downloads by country
+At work,Number of questions and answers by country,Stack Overflow,Number of questions and answers related to digital technologies by country
+Supply,Number of computer science programmes being taught,StudyPortals,Number of computer science programmes available
