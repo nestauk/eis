@@ -158,12 +158,12 @@ if os.path.exists(f"{target_dir}/selected_tables")==False:
 for c in table_codes:
     make_eurostat_table(c,toc_df,f"{target_dir}/selected_tables")
 
-#For each of these topics collect the data and save in its own special directory
-for topic in ['skills','innovation','digital','education']:
+# #For each of these topics collect the data and save in its own special directory
+# for topic in ['skills','innovation','digital','education']:
 
-    if os.path.exists(f"{target_dir}/{topic}")==False:
-        os.mkdir(f"{target_dir}/{topic}")
+#     if os.path.exists(f"{target_dir}/{topic}")==False:
+#         os.mkdir(f"{target_dir}/{topic}")
 
-    target_2 = f"{target_dir}/{topic}"
-    collect_data_for_topic(toc_df,[topic],target_2)
+#     target_2 = f"{target_dir}/{topic}"
+#     collect_data_for_topic(toc_df,[topic],target_2)
 

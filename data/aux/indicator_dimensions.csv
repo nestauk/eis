@@ -1,0 +1,23 @@
+Dimension,Sub-dimension,Type of data,Indicator,Source,Temporal coverage,Highest geographical resolution,Filtering options,Trustworthiness,Complexity
+At society,Digital competence,Official,At least basic digital skills (in % of individuals),Eurostat,2015-2019,Country,Individual demographics,5,1
+At work,ICT specialists,Official,ICT specialists (in % of total employment),Eurostat,2004-2019,Country,Total,5,1
+At work,Labour market (Demand),Web,Online job vacancies (ICT professionals),CEDEFOP,2018-2019,Country,Skill type,4,3
+At work,Labour market (Demand),Web,Digital talent in/out migration,LinkedIn,2018,Country,Skill type,4,2
+At work,Industry skills base,Official,Employed in High technology occupations,Eurostat,2010-2018,Country,Sector,5,1
+At work,Industry skills base,Official,R&D personnel in ICT sector as % of total R&D personnel by NACE Rev. 2 activity,Eurostat,2009-2018,Country,Sector,5,1
+At work,Industry skills base,Web,Number of open source software developers,GitHub,2008-2020,Region,Technology,3,3
+At work,Industry skills base,Web,Number of digital technology networking groups,Meetup,2006-2020,Location,Technology,3,3
+At work,Labour market (Demand),Official,% of enterprises that employ ICT specialists,Eurostat,2012-2019,Country,Sector and size,5,1
+In education,ICT graduates,Institutional,Graduates in ICT fields of study,ETER,2011-2016,Location,Field of study,4,2
+In education,ICT professors and programmes,Institutional,Academic staff in ICT fields of study,ETER,2011-2016,Location,Field of study,4,2
+In education,ICT professors and programmes,Web,Number of computer science programmes being taught,StudyPortals,2020,Location,Technology,4,4
+At work,Industry skills base,Web,Number of unique participants in technology networking groups,Meetup,2015-2020,Location,Technology,3,3
+At work,Industry skills base,Web,Python package downloads,PyPy,Until 2020,Country,Technology,3,3
+At work,Industry skills base,Web,Number of questions and answers by country,Stack Overflow,Until 2020,Variable,Technology,3,4
+At work,Labour market (Demand),Official,Enterprises that recruited or tried to recruit ICT specialists,Eurostat,2012-2019,Country,Sector and size,5,1
+At work,Labour market (Demand),Official,Enterprises - ICT functions performed,Eurostat,2015-2019,Country,Sector and size,5,1
+At work,Labour market (Supply),Official,Persons with ICT education by labour status,Eurostat,2009-2018,Country,Total,5,1
+In education,ICT students,Institutional,Students enrolled in ICT fields of study,ETER,2011-2016,Location,Field of study,4,2
+In education,ICT students,Official,Graduates from ICT subjects,Eurostat,2013-2017,Country,Field of study,5,1
+In society,Digital competence,Official,"Proportion of youth and adults with information and communications technology (ICT) skills, by sex and type of skill (%)",UN,2010-2018,Country,Skill level,5,5
+In society,ICT usage,Official,Individuals who used the internet in the last three months,Eurostat,2010-2019,Country,Individual demographics,5,5
