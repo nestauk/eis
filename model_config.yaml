@@ -1,13 +1,25 @@
 eurostat_inventory:
-  - isoc_ske_itspen2
-  - isoc_ske_itrcrn2
-  - isoc_ske_fct
-  - hrst_st_nfieocc
-  - hrst_st_nsec2
-  - isoc_ic_biper2
-  - lfsa_egan2
-  - educ_uoe_grad02
-  - hrst_fl_tegrad
-  - isoc_sks_itspt
-  - isoc_ski_itemp
-  - isoc_ske_ittn2
+  # - isoc_ske_itspen2
+  # - isoc_ske_itrcrn2
+  # - isoc_ske_fct
+  # - hrst_st_nfieocc
+  # - hrst_st_nsec2
+  # - isoc_ic_biper2
+  # - lfsa_egan2
+  # - educ_uoe_grad02
+  # - hrst_fl_tegrad
+  # - isoc_sks_itspt
+  # - isoc_ski_itemp
+  # - isoc_ske_ittn2
+   - hrst_st_nsec
+   - isoc_ic_biper2   
+   - isoc_ske_itspen2
+   - isoc_ske_itrcrn2
+   - isoc_ske_fct
+   - isoc_ski_itemp
+   - educ_uoe_grad02
+   - isoc_sks_itspt
+   - isoc_sk_dskl_i
+   - isoc_ci_ifp_iu
+   - demo_pjan
+   - demo_pjanind
