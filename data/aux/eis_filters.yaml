@@ -1,71 +1,143 @@
-educ_uoe_grad02:
-  iscedf13:
-    - F06
-  sex:
-    - T
-hrst_fl_tegrad: #Graduates from STEM subjects
-  field:
-    - EF4
-  sex:
-    - T
-  unit:
-    - PC_Y20-29
-hrst_st_nfieocc: #This measures people employed in occupations
+hrst_st_nsec2: #Employed in high tech sectors
   age:
-    - Y25-64
-  field:
-    - EF4
-  isco08:
-    - TOTAL
-  unit:
-    - PC_EMP
-hrst_st_nsec2:
-  age:
-    - Y25-64
+    - Y25-64 
   category:
-    - HRSTE #This measures people employed in the sector
+    - HRSTO #People working in Science & Tech occupations
   nace_r2:
-    - I
-  unit:
-    - PC_EMP
-isoc_ske_fct: #IT developoment activities
-  indic_is:
-    - E_IT_MOWN
+    - TOTAL
+  unit: 
+    - THS
+isoc_ic_biper2: #R&D personnel in the ICT sector
+  nace_r2:
+    - J62 #Focus on computer programming
+isoc_ske_itspen2: #% enterprises that employ ICT specialists
   sizen_r2:
-    -  SM_C10_S951_XK #(SMEs)
-  unit:
-    - PC_ENT_CUSE 
-isoc_ske_itrcrn2: #Difficulty recruiting IT specialists
+    - SM_C10_S951_XK #SMEs
+isoc_ske_itrcrn2: #% enterprises that tried to recruit specialists
   indic_is:
-    -  E_ITSPVAC2X 
+    - E_ITSPRCR2 #Tried to recruit
   sizen_r2:
     - SM_C10_S951_XK #SMEs
   unit:
-    - PC_ENT_CUSE
-isoc_ske_itspen2: #% that employ ICT specialists
-  sizen_r2:
-    - SM_C10_S951_XK
-  unit:
-    - PC_ENT_CUSE
-isoc_ske_ittn2: #% that offer ICT training
+    - PC_ENT #% of all enterprises
+isoc_ske_fct: #Enterprise - ICT functions performed
   indic_is:
-    - E_ITT2
+    - E_IT_MOWN #Main employees
   sizen_r2:
-    - SM_C10_S951_XK
+    - SM_C10_S951_XK #SMEs
   unit:
-    - PC_ENT_CUSE
-isoc_ski_itemp: #ICT education by employment status
+    - PC_ENT
+isoc_ski_itemp: #Person with ICT education by labour status
   unit:
     - PC
   wstatus:
     - EMP
+educ_uoe_grad02: #Graduates from ICT subjects
+  isced11:
+    - ED5-8 #tertiary education
+  iscedf13:
+    - F06 #Computing
+  sex:
+    - T #Total
 isoc_sks_itspt: #Employed ICT specialists
   unit:
     - PC_EMP
-lfsa_egan2: #Employment by sector
-  nace_r2:
-    - I
-  sex:
-    - T
+isoc_sk_dskl_i: #Individual with digital skills above average
+  ind_type: 
+    - IND_TOTAL
+  indic_is:
+    - I_DSK_AB
   unit:
-    - THS
+    - PC_IND
+# isoc_sk_dskl_i: #Individual with software skills
+#   ind_type: 
+#     - IND_TOTAL
+#   indic_is:
+#     - I_DSK_S_B
+#   unit:
+#     - PC_IND
+isoc_ci_ifp_iu: #Individuals who have used the internet in the last 3 months
+  ind_type:
+    - IND_TOTAL
+  indic_is:
+    - I_IU3
+  unit:
+    - PC_IND
+# educ_uoe_grad02:
+#   iscedf13:
+#     - F06
+#   sex:
+#     - T
+# hrst_fl_tegrad: #Graduates from STEM subjects
+#   field:
+#     - EF4
+#   sex:
+#     - T
+#   unit:
+#     - PC_Y20-29
+# hrst_st_nfieocc: #This measures people employed in occupations
+#   age:
+#     - Y25-64
+#   field:
+#     - EF4
+#   isco08:
+#     - TOTAL
+#   unit:
+#     - PC_EMP
+# hrst_st_nsec2:
+#   age:
+#     - Y25-64
+#   category:
+#     - HRSTE #This measures people employed in the sector
+#   nace_r2:
+#     - I
+#   unit:
+#     - PC_EMP
+# isoc_ske_fct: #IT developoment activities
+#   indic_is:
+#     - E_IT_MOWN
+#   sizen_r2:
+#     -  SM_C10_S951_XK #(SMEs)
+#   unit:
+#     - PC_ENT_CUSE 
+# isoc_ske_itrcrn2: #Difficulty recruiting IT specialists
+#   indic_is:
+#     -  E_ITSPVAC2X 
+#   sizen_r2:
+#     - SM_C10_S951_XK #SMEs
+#   unit:
+#     - PC_ENT_CUSE
+# isoc_ske_itspen2: #% that employ ICT specialists
+#   sizen_r2:
+#     - SM_C10_S951_XK
+#   unit:
+#     - PC_ENT_CUSE
+# isoc_ske_ittn2: #% that offer ICT training
+#   indic_is:
+#     - E_ITT2
+#   sizen_r2:
+#     - SM_C10_S951_XK
+#   unit:
+#     - PC_ENT_CUSE
+# isoc_ski_itemp: #ICT education by employment status
+#   unit:
+#     - PC
+#   wstatus:
+#     - EMP
+# isoc_sks_itspt: #Employed ICT specialists
+#   unit:
+#     - PC_EMP
+# lfsa_egan2: #Employment by sector
+#   nace_r2:
+#     - I
+#   sex:
+#     - T
+#   unit:
+#     - THS
+
+
+
+
+
+
+
